@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Stocks
+{% endblock %}
+
+{% block main %}
+    <table class = "table">
+        <tr>
+            <th>Symbol</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>
+        {% for stock in stocks %}
+            <tr>
+                <th>{{ stock["symbol"] }}</th>
+                <th>{{ stock["number_of_shares"] }}</th>
+                <th>{{ stock["price_per_share"] | usd }}</th>
+                <th>{{ stock["total_price"] | usd }}</th>
+            </tr>
+        {% endfor %}
+        <tr>
+            <th></th>
+            <th></th>
+            <th>Cash</th>
+            <th>{{ user_balance | usd }}</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th>Total</th>
+            <th>{{ sum | usd }}</th>
+        </tr>
+    </table>
+{% endblock %}

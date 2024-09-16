@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table class = "table">
+        <tr>
+            <th>Purchase Type</th>
+            <th>Symbol</th>
+            <th>Shares</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>
+        {% for c in history %}
+            <tr>
+                <th>{{ c["purchase_type"] }}</th>
+                <th>{{ c["symbol"] }}</th>
+                <th>{{ c["number_of_shares"] }}</th>
+                <th>{{ c["price_per_share"] | usd  }}</th>
+                <th>{{ c["total_price"] | usd  }}</th>
+            </tr>
+        {% endfor %}
+    </table>
+{% endblock %}

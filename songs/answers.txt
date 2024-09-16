@@ -1,0 +1,1 @@
+I would characterize their audio aura as positive. The way I calculated their aura may not be very accurate because someone's adio aura should not be based simply on three parameters. A possibly way to increase accuracy is to involve more variables such as duration to weight each song.

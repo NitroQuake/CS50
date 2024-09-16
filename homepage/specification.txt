@@ -1,0 +1,31 @@
+<h1>
+I used this tag for my website's title.
+<div>
+I used this tag to divide the picture from everything else.
+<img>
+I use this tag to add a baby photo of myself.
+<p>
+I used this tag to add some text before my LinkedIn.
+<a>
+I used this tag to add a link to my website.
+<form>
+I used this tag to create a form.
+<input>
+I used this tag to get user input.
+<button>
+I used this tag to create a register button.
+<video>
+I used this tag to format my video.
+<source>
+I used this tag to add my timelapse video.
+
+.blue-text
+I used this to turn some text blue.
+.border
+I used this to add a border.
+.san-serif
+I used this to change the font of text.
+.blue-background
+I used this to change the background color of an input field.
+.underline
+I used this to underline a piece of text.

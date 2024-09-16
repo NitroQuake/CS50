@@ -1,0 +1,24 @@
+.blue-text
+{
+    color: blue;
+}
+
+.border
+{
+    border: 5px solid #555;
+}
+
+.san-serif
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blue-background
+{
+    background-color: blue;
+}
+
+.underline
+{
+    text-decoration-line: underline;
+}
